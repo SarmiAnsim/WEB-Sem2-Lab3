@@ -1,0 +1,83 @@
+[
+  {
+    "user": "150deae5-0ac2-4adc-9ea7-7b8b78d1be87",
+    "data": [
+      {
+        "id": 1,
+        "name": "Richard Hendricks",
+        "age": "29",
+        "email": "richard@piedpiper.com"
+      },
+      {
+        "id": 2,
+        "name": "Bertram Gilfoyle",
+        "age": "23",
+        "email": "gilfoyle@piedpiper.com"
+      },
+      {
+        "id": 3,
+        "name": "Galla Cassa",
+        "age": "34",
+        "email": "gala@mail.ru"
+      },
+      {
+        "id": 4,
+        "name": "Max Polovinkin",
+        "age": "23",
+        "email": "polMaxa@mail.ru"
+      },
+      {
+        "id": 5,
+        "name": "Sergey Artamonov",
+        "age": "81",
+        "email": "serGay@mail.ru"
+      }
+    ]
+  },
+  {
+    "user": "6fa79399-6b90-4c01-b041-65efae2cce1a",
+    "data": [
+      {
+        "id": 1,
+        "name": "My New User",
+        "age": "26",
+        "email": "WhoKnow@mail.ru"
+      },
+      {
+        "id": 2,
+        "name": "Мария Ивановна",
+        "age": "65",
+        "email": "MarIvan@join.bet"
+      },
+      {
+        "id": 3,
+        "name": "Женя Степанов",
+        "age": "20",
+        "email": "StepEvgen@rabl.yop"
+      }
+    ]
+  },
+  {
+    "user": "bd042222-8712-4334-9e3b-04518593bb6a",
+    "data": [
+      {
+        "id": 1,
+        "name": "Артамонов Сергей",
+        "age": "21",
+        "email": "ArtaPuf@yandex.ru"
+      },
+      {
+        "id": 2,
+        "name": "Женя Степаненко",
+        "age": "23",
+        "email": "GenEvgen@joster.jo"
+      },
+      {
+        "id": 3,
+        "name": "Акацуки Конан",
+        "age": "19",
+        "email": "Arigato@nya.ichimicsa"
+      }
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Лаба 3</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="AAR/AuthAndRegStyle.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="AAR/AAR.js"></script>
+</head>
+<header>
+    <div><h1>Super Friend</h1></div>
+    <div><nav>
+    	<a><button class="AAR" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Войти</button></a>
+    	<a><button class="AAR" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Зарегестрироваться</button></a>
+    </nav></div>
+</header>
+<body>
+  <h2 style="font-size:30px; text-align: center; margin: 30px">Активность</h2>
+  <ul id="myUL">
+  </ul>
+</body>
+</html>
+
+<div id="id01" class="modal">
+  
+  <div class="modal-content animate" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Закрыть">×</span>
+    </div>
+
+    <div class="container">
+      <label for="login"><b>Логин</b></label>
+      
+      <input type="text" placeholder="Enter Username" id="login" required>
+
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder="Enter Password" id="psw" required>
+        
+      <button type="submit" id="entry">Войти</button>
+      <label style="color: red; float: right;" hidden="true" id="err">Логин или пароль введены неверно</label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Отмена</button>
+      
+      <span class="psw">
+        <div class="popup">Забыли <a href="#" onclick="myFunction()">пароль?</a>
+          <span class="popuptext" id="myPopup">Вспоминайте!</span>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div id="id02" class="modal">
+
+  <div class="modal-content animate">
+  	<div class="imgcontainer">
+  		<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Закрыть">×</span>
+  	</div>
+    <div class="container">
+      <h1>Регистрация</h1>
+      <p>Пожалуйста заполните форму для регистрации.</p><br>
+      <label style="color: red; float: right;" hidden="true" id="error"></label>
+      <hr>
+      <label for="nas"><b>Имя и Фамилия</b></label>
+      <input type="text" placeholder="Enter Name and Surname" id="nas" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" id="email" required>
+
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder="Enter Password" id="rpsw" required>
+
+      <label for="psw-repeat"><b>Повторите пароль</b></label>
+      <input type="password" placeholder="Repeat Password" id="rpsw-repeat" required>
+      
+      <button type="submit" id="register">Зарегестрироваться</button>
+
+      <label style="color: red; float: right;" hidden="true" id="rerr">Пользователь с таким логином уже существует</label>
+  	</div>     
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Отмена</button>
+      <span class="psw">При создании аккаунта вы соглашаетесь <br> с <a href="../privacy.html" style="color:dodgerblue">«Политикой конфиденциальности»</a>.</span>
+    </div>
+    </div>
+  </div>
+</div>

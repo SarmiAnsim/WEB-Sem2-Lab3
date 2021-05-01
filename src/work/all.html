@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Лаба 2</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="Script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <h1>Пользователи</h1>
+            <table id="Data" class="table_dark">
+                <tbody>
+                    <tr tabindex="1">
+                        <th width="30px">Id</th>
+                        <th>Имя</th>
+                        <th width="60px">Возраст</th>
+                        <th>Адрес электронной почты</th>
+                        <th class="checkbox"></th>
+                    </tr>
+                </tbody>
+                <tbody class="values">
+                </tbody>
+            </table>
+            <button id="update" class="button21">Обновить таблицу</button>
+            <button id="change" class="button21">Сохранить измения</button>
+            <button id="newadd" class="button21">Добавить</button>
+            <button id="delete" class="button21">Удалить</button>
+        </div>
+        <div style="text-align: center">
+            <h1>Поиск по возрасту</h1>
+            <label>Возраст</label><br>
+            <input type="number" id="searchAge" /><br>
+            <button id="search"  class="button21">Найти</button>
+            <table id="FindData" class="table_dark">
+                <tbody>
+                    <tr>
+                        <th width="30px">Id</th>
+                        <th>Имя</th>
+                        <th width="60px">Возраст</th>
+                        <th>Адрес электронной почты</th>
+                    </tr>
+                </tbody>
+                <tbody class="values">
+                </tbody>
+            </table><br>
+        </div>
+    </div>
+</body>
+</html>

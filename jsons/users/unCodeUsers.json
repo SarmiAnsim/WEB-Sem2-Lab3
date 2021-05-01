@@ -1,0 +1,23 @@
+[
+  {
+    "id": "150deae5-0ac2-4adc-9ea7-7b8b78d1be87",
+    "name": "Richard Hendricks",
+    "login": "richard@piedpiper.com",
+    "psw": "U2FsdGVkX1+ly75iv22IPbzgZSMguIwCLVRO0Kr3ai4=",
+    "activity": "2021-05-01T14:34:09.045Z"
+  },
+  {
+    "id": "6fa79399-6b90-4c01-b041-65efae2cce1a",
+    "name": "Galla Cassa",
+    "login": "gala@mail.ru",
+    "psw": "U2FsdGVkX19/UzEoSSP613NgPy6ww9UHYIppWD337bk=",
+    "activity": "2021-05-01T14:34:49.424Z"
+  },
+  {
+    "id": "bd042222-8712-4334-9e3b-04518593bb6a",
+    "name": "Мария Савелова",
+    "login": "savelMar@fluid.nax",
+    "psw": "U2FsdGVkX19z7zBMHJV7aqvZBQeFXr+QhAoZbiUT4eM=",
+    "activity": "2021-05-01T14:27:53.258Z"
+  }
+]
